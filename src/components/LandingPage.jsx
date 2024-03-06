@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaArrowLeftLong } from "react-icons/fa6";
 
 function LandingPage() {
     return (
@@ -11,6 +12,15 @@ function LandingPage() {
                     </div>
 
                 })}
+            </div>
+            <div className='border-t-[1px] border-zinc-700 mt-24 flex justify-between px-14'>
+                {['For public and private companies', 'From the first pitch to IPO'].map((item, idx) => (
+                    <p className='mt-4'>{item}</p>
+                ))}
+                <div className='flex justify-center items-center'>
+                    <p className='border-2 border-zinc-600 mt-4 mr-1 px-4 py-1 text-sm uppercase rounded-3xl'>Start the project</p>
+                    <FaArrowLeftLong className='border-2 border-zinc-600 mt-4 p-2 w-8 h-8 rotate-[140deg] uppercase rounded-full' />
+                </div>
             </div>
         </div>
     )
