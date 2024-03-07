@@ -14,7 +14,6 @@ function Footer() {
         });
     }, [rotate]);
     return (
-
         <div className='relative w-full min-h-screen cursor-pointer bg-[#CDEA68]'>
             <div className='text pt-32'>
                 {
@@ -23,7 +22,6 @@ function Footer() {
                     ))
                 }
             </div>
-
             <div className="absolute top-[35%] left-1/2 -translate-x-[50%] -translate-y-[50%] flex gap-10">
                 <div className="bg-white h-[24vh] w-[24vh] rounded-full flex justify-center items-center gap-10">
                     <div className="relative bg-zinc-800 h-[58%] w-[58%] rounded-full ">
@@ -56,15 +54,12 @@ function Footer() {
                     </div>
                 </div>
             </div>
-
             <div className="w-full flex justify-center items-center mt-12 pb-10">
                 <a href="https://github.com/piyush289kumar" target="_blank" className='bg-zinc-800 px-6 py-4 text-md rounded-full text-white uppercase flex items-center justify-between gap-8'>UI Clone By - Piyush Kumar Raikwar
-                    <FaGithub size={35}/>
+                    <FaGithub size={35} />
                 </a>
             </div>
         </div>
-
     )
 }
-
 export default Footer
