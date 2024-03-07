@@ -2,7 +2,7 @@ import React from 'react'
 
 function Marquee() {
     return (
-        <div className='w-full py-24 rounded-t-3xl bg-[#004D43] flex'>
+        <div className='w-full py-24 rounded-t-2xl bg-[#004D43] flex'>
             <div className='text border-t-[1px] border-b-[1px] border-green-100 flex gap-11 tracking-tighter overflow-hidden whitespace-nowrap'>
                 {
                     ["WE ARE OCHI", "WE ARE OCHI"].map((item, idx) => (
