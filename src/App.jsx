@@ -1,12 +1,13 @@
 import LandingPage from "./components/LandingPage";
-import { Navbar } from "./components/index";
+import { Navbar, Marquee } from "./components/index";
 
 function App() {
 
   return (
-    <div className="w-full h-screen text-white">
+    <div className="w-full h-screen">
       <Navbar />
       <LandingPage />
+      <Marquee />
     </div>
   )
 }
