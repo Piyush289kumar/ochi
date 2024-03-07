@@ -1,5 +1,5 @@
 import LandingPage from "./components/LandingPage";
-import { Navbar, Marquee, About, PlaySection, Features } from "./components/index";
+import { Navbar, Marquee, About, PlaySection, Features, Cards } from "./components/index";
 
 function App() {
 
@@ -11,6 +11,7 @@ function App() {
       <About />
       <PlaySection />
       <Features />
+      <Cards />
     </div>
   )
 }

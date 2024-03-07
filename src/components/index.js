@@ -3,5 +3,6 @@ import Marquee from "./Marquee";
 import About from "./About";
 import PlaySection from "./PlaySection";
 import Features from "./Features";
+import Cards from "./Cards";
 
-export  {Navbar, Marquee, About, PlaySection, Features}
+export  {Navbar, Marquee, About, PlaySection, Features, Cards}
