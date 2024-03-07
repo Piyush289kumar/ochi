@@ -9,11 +9,11 @@ function Features() {
                 <h1 className="text-[8vh]">Featured projects</h1>
             </div>
 
-            <div className="w-full px-10 pt-14 flex items-center justify-center gap-10 bg-zinc-100 relative">
-                <div className="text absolute top-[57%] left-1/2 -translate-x-[50%] -translate-y-[50%]">                
-                        <h1 className="z-[4] uppercase text-[15vh] tracking-tight font-bold text-[#cdea68]">
-                            {dynamicText}
-                        </h1>
+            <div className="w-full px-10 pt-14 flex items-center justify-center gap-4 bg-zinc-100 relative">
+                <div className="text absolute top-[57%] left-1/2 -translate-x-[50%] -translate-y-[50%]">
+                    <h1 className="z-[4] uppercase text-[15vh] tracking-tight font-bold text-[#cdea68]">
+                        {dynamicText}
+                    </h1>
                 </div>
 
                 <div className="w-1/2">
@@ -62,11 +62,11 @@ function Features() {
             </div>
 
 
-            <div className="w-full px-10 pt-14 flex items-center justify-center gap-10 bg-zinc-100 relative">
-                <div className="text absolute top-[57%] left-1/2 -translate-x-[50%] -translate-y-[50%]">                
-                        <h1 className="z-[4] uppercase text-[15vh] tracking-tight font-bold text-[#cdea68]">
-                            {dynamicText}
-                        </h1>
+            <div className="w-full px-10 pt-14 flex items-center justify-center gap-4 bg-zinc-100 relative">
+                <div className="text absolute top-[57%] left-1/2 -translate-x-[50%] -translate-y-[50%]">
+                    <h1 className="z-[4] uppercase text-[15vh] tracking-tight font-bold text-[#cdea68] whitespace-nowrap">
+                        {dynamicText}
+                    </h1>
                 </div>
 
                 <div className="w-1/2">
@@ -84,7 +84,7 @@ function Features() {
                         />
                     </div>
                     <div className='flex items-center'>
-                        {['audio', 'copywriting', 'sales deck', 'slides design'].map((item, idx) => (
+                        {['Brand identity', 'design research', 'investor deck'].map((item, idx) => (
                             <p key={idx} className='border-[1px] border-zinc-900 mt-4 mr-3 px-4 py-1 text-sm uppercase rounded-3xl'>{item}</p>
                         ))}
 
@@ -106,12 +106,16 @@ function Features() {
                         />
                     </div>
                     <div className='flex items-center'>
-                        {['agency', 'company presentation'].map((item, idx) => (
+                        {['Branded Template'].map((item, idx) => (
                             <p key={idx} className='border-[1px] border-zinc-900 mt-4 mr-3 px-4 py-1 text-sm uppercase rounded-3xl'>{item}</p>
                         ))}
 
                     </div>
                 </div>
+            </div>
+
+            <div className="w-full flex justify-center items-center mt-24">
+                <button className='bg-zinc-800 px-6 py-4 text-md rounded-full text-white uppercase flex items-center justify-between gap-8'>VIEW All case studies<div className='w-2 h-2 rounded-full bg-zinc-50'></div></button>
             </div>
         </div>
     );
