@@ -5,7 +5,7 @@ import { FaArrowLeftLong } from "react-icons/fa6";
 function LandingPage() {
 
     return (
-        <div className='w-full h-screen'>
+        <div data-scroll data-scroll-section data-scroll-speed="-0.3" className='w-full h-screen bg-zinc-100'>
             <div className='textSection pt-40 px-14'>
                 {['We create', 'eye-opening', 'presentations'].map((item, idx) => {
                     return <div className='flex items-center'>
