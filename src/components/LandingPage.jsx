@@ -24,8 +24,8 @@ function LandingPage() {
                     <p className='mt-4'>{item}</p>
                 ))}
                 <div className='flex justify-center items-center'>
-                    <p className='border-[1px] border-zinc-900 mt-4 mr-1 px-4 py-1 text-sm uppercase rounded-3xl'>Start the project</p>
-                    <FaArrowLeftLong className='border-[1px] border-zinc-900 mt-4 p-[10px] w-8 h-8 rotate-[140deg] uppercase rounded-full' />
+                    <p className='border-[1px] border-zinc-900 mt-4 mr-1 px-4 py-1 text-sm uppercase rounded-3xl cursor-pointer hover:bg-zinc-800 hover:text-zinc-200 duration-200'>Start the project</p>
+                    <FaArrowLeftLong className='border-[1px] border-zinc-900 mt-4 p-[10px] w-8 h-8 rotate-[140deg] uppercase rounded-full cursor-pointer hover:bg-zinc-800 hover:text-zinc-200 duration-200' />
                 </div>
             </div>
         </div>

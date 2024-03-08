@@ -14,7 +14,7 @@ function Footer() {
         });
     }, [rotate]);
     return (
-        <div className='relative w-full min-h-screen cursor-pointer bg-[#CDEA68]'>
+        <div data-scroll data-scroll-section className='relative w-full min-h-screen cursor-pointer bg-[#CDEA68]'>
             <div className='text pt-32'>
                 {
                     ['Ready', 'to Start', 'the Project?'].map((item, idx) => (

@@ -33,7 +33,7 @@ function About() {
                 <div className='bg-[#CDEA68] border-t-[1px] border-zinc-500 px-12 pt-4 mt-5 pb-12 flex'>
                     <div className='w-1/2'>
                         <h1 className='text-[8vh] font-medium mb-4'>Our approach:</h1>
-                        <button className='bg-zinc-800 px-6 py-4 text-md rounded-full text-white uppercase flex items-center justify-between gap-8'>Read More<div className='w-2 h-2 rounded-full bg-zinc-50'></div></button>
+                        <button className='bg-zinc-800 px-6 py-4 text-md rounded-full text-white uppercase flex items-center justify-between gap-8'>Read More<div className='w-2 h-2 rounded-full bg-zinc-50 hover:w-5 hover:h-5 duration-150'></div></button>
                     </div>
                     <div className='w-1/2 flex items-center'>
                         <img

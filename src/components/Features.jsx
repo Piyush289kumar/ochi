@@ -17,7 +17,7 @@ function Features() {
               <motion.span
                 initial={{ y: "100%" }}
                 animate={{ y: "0" }}
-                transition={{ ease: [0.25, 1, 0.5, 1], duration: idx * 0.1 }}
+                transition={{ ease: [0.25, 1, 0.5, 1], duration: idx * 0.3 }}
               >
                 {item}
               </motion.span>
@@ -44,7 +44,7 @@ function Features() {
               (item, idx) => (
                 <p
                   key={idx}
-                  className="border-[1px] border-zinc-900 mt-4 mr-3 px-4 py-1 text-sm uppercase rounded-3xl"
+                  className="border-[1px] border-zinc-900 mt-4 mr-3 px-4 py-1 text-sm uppercase rounded-3xl cursor-pointer hover:bg-zinc-800 hover:text-zinc-200 duration-200"
                 >
                   {item}
                 </p>
@@ -71,7 +71,7 @@ function Features() {
             {["agency", "company presentation"].map((item, idx) => (
               <p
                 key={idx}
-                className="border-[1px] border-zinc-900 mt-4 mr-3 px-4 py-1 text-sm uppercase rounded-3xl"
+                className="border-[1px] border-zinc-900 mt-4 mr-3 px-4 py-1 text-sm uppercase rounded-3xl cursor-pointer hover:bg-zinc-800 hover:text-zinc-200 duration-200"
               >
                 {item}
               </p>
@@ -82,12 +82,12 @@ function Features() {
 
       <div className="w-full px-10 pt-14 flex items-center justify-center gap-4 bg-zinc-100 relative">
         <div className="text absolute top-[57%] left-1/2 -translate-x-[50%] -translate-y-[50%]">
-        <h1 className="overflow-hidden flex justify-center items-center gap-0 uppercase text-[15vh] tracking-tight font-bold text-[#cdea68]">
+          <h1 className="overflow-hidden flex justify-center items-center gap-0 uppercase text-[15vh] tracking-tight font-bold text-[#cdea68]">
             {dynamicText.split("").map((item, idx) => (
               <motion.span
                 initial={{ y: "100%" }}
                 animate={{ y: "0" }}
-                transition={{ ease: [0.25, 1, 0.5, 1], duration: idx * 0.1 }}
+                transition={{ ease: [0.22, 1, 0.36, 1], duration: idx * 0.3 }}
               >
                 {item}
               </motion.span>
@@ -114,7 +114,7 @@ function Features() {
               (item, idx) => (
                 <p
                   key={idx}
-                  className="border-[1px] border-zinc-900 mt-4 mr-3 px-4 py-1 text-sm uppercase rounded-3xl"
+                  className="border-[1px] border-zinc-900 mt-4 mr-3 px-4 py-1 text-sm uppercase rounded-3xl cursor-pointer hover:bg-zinc-800 hover:text-zinc-200 duration-200"
                 >
                   {item}
                 </p>
@@ -141,7 +141,7 @@ function Features() {
             {["Branded Template"].map((item, idx) => (
               <p
                 key={idx}
-                className="border-[1px] border-zinc-900 mt-4 mr-3 px-4 py-1 text-sm uppercase rounded-3xl"
+                className="border-[1px] border-zinc-900 mt-4 mr-3 px-4 py-1 text-sm uppercase rounded-3xl cursor-pointer hover:bg-zinc-800 hover:text-zinc-200 duration-200"
               >
                 {item}
               </p>
@@ -153,7 +153,7 @@ function Features() {
       <div className="w-full flex justify-center items-center mt-24">
         <button className="bg-zinc-800 px-6 py-4 text-md rounded-full text-white uppercase flex items-center justify-between gap-8">
           VIEW All case studies
-          <div className="w-2 h-2 rounded-full bg-zinc-50"></div>
+          <div className="w-2 h-2 rounded-full bg-zinc-50 hover:w-5 hover:h-5 duration-150"></div>
         </button>
       </div>
     </div>
