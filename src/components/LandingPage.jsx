@@ -1,13 +1,19 @@
+import { motion } from 'framer-motion';
 import React from 'react'
 import { FaArrowLeftLong } from "react-icons/fa6";
 
 function LandingPage() {
+
     return (
         <div className='w-full h-screen'>
             <div className='textSection pt-40 px-14'>
                 {['We create', 'eye-opening', 'presentations'].map((item, idx) => {
                     return <div className='flex items-center'>
-                        {idx === 1 && (<div className='w-[15vh] h-[10vh] bg-red-600 relative top-[1vh] rounded-md'></div>)}
+                        {idx === 1 && (<motion.div
+                            initial={{ width: 0 }}
+                            animate={{ width: "15vh" }}        
+                            transition={{ ease: [0.34, 1.56, 0.64, 1], duration: 1, delay : 0.7 }}
+                            className='w-[15vh] h-[10vh] relative top-[1vh] rounded-md bg-cover bg-center bg-[url("https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg")]'></motion.div>)}
                         <h1 className="font-bold text-zinc-800 text-[14vh] leading-none uppercase tracking-tight">{item}</h1>
                     </div>
 
